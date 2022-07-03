@@ -152,6 +152,7 @@ public final class Utilities {
     public static final int TRANSLATE_RIGHT = 3;
 
     public static final String KEY_FORCE_MONOCHROME_ICONS = "pref_forced_monochrome_icons";
+    public static final String KEY_ALLOW_WALLPAPER_ZOOMING = "pref_allow_wallpaper_zooming";
 
     @IntDef({TRANSLATE_UP, TRANSLATE_DOWN, TRANSLATE_LEFT, TRANSLATE_RIGHT})
     public @interface AdjustmentDirection{}
@@ -824,5 +825,10 @@ public final class Utilities {
     public static boolean enableMonoChromeThemedIcons(Context context) {
     	SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
     	return prefs.getBoolean(KEY_FORCE_MONOCHROME_ICONS, false);
+    }
+
+    public static boolean canZoomWallpaper(Context context) {
+        SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_ALLOW_WALLPAPER_ZOOMING, true);
     }
 }

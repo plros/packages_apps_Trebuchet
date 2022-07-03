@@ -34,4 +34,8 @@
     <!-- Wallpaper scrolling -->
     <string name="allow_wallpaper_scrolling">Wallpaper scrolling</string>
     <string name="allow_wallpaper_scrolling_summary">Wallpaper scrolling effect for multiple screens</string>
+
+    <!-- Wallpaper zooming -->
+    <string name="allow_wallpaper_zooming">Wallpaper zooming</string>
+    <string name="allow_wallpaper_zooming_summary">Wallpaper zooming effect when unlocking or using recent apps</string>
 </resources>
