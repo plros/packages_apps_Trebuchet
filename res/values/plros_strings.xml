@@ -38,4 +38,8 @@
     <!-- Wallpaper zooming -->
     <string name="allow_wallpaper_zooming">Wallpaper zooming</string>
     <string name="allow_wallpaper_zooming_summary">Wallpaper zooming effect when opening drawer and recent apps</string>
+
+    <!-- Hotseat QSB -->
+    <string name="hotseat_qsb_pref_title">Show search bar</string>
+    <string name="hotseat_qsb_pref_summary">In the bottom dock</string>
 </resources>
