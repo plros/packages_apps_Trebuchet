@@ -37,5 +37,5 @@
 
     <!-- Wallpaper zooming -->
     <string name="allow_wallpaper_zooming">Wallpaper zooming</string>
-    <string name="allow_wallpaper_zooming_summary">Wallpaper zooming effect when unlocking or using recent apps</string>
+    <string name="allow_wallpaper_zooming_summary">Wallpaper zooming effect when unlocking</string>
 </resources>
