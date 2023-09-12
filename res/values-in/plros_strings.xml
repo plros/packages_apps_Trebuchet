@@ -37,5 +37,5 @@
 
     <!-- Wallpaper zooming -->
     <string name="allow_wallpaper_zooming">Wallpaper membesar</string>
-    <string name="allow_wallpaper_zooming_summary">Efek wallpaper membesar saat membuka layar kunci</string>
+    <string name="allow_wallpaper_zooming_summary">Efek wallpaper membesar saat membuka laci dan pengalih aplikasi</string>
 </resources>
