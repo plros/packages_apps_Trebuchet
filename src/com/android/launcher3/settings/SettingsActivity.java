@@ -376,7 +376,8 @@ public class SettingsActivity extends FragmentActivity
          */
         private boolean updateDeveloperOption() {
             boolean showPreference = FeatureFlags.showFlagTogglerUi(getContext())
-                    || PluginManagerWrapper.hasPlugins(getContext());
+                    || PluginManagerWrapper.hasPlugins(getContext())
+                    || Utilities.isDevelopersOptionsEnabled(getContext());
             if (mDeveloperOptionPref != null) {
                 mDeveloperOptionPref.setEnabled(showPreference);
                 if (showPreference) {
