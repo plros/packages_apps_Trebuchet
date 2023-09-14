@@ -38,4 +38,8 @@
     <!-- Wallpaper zooming -->
     <string name="allow_wallpaper_zooming">Wallpaper membesar</string>
     <string name="allow_wallpaper_zooming_summary">Efek wallpaper membesar saat membuka laci dan pengalih aplikasi</string>
+
+    <!-- Hotseat QSB -->
+    <string name="hotseat_qsb_pref_title">Tampilkan widget bilah pencarian</string>
+    <string name="hotseat_qsb_pref_summary">Di bagian bawah layar utama</string>
 </resources>
