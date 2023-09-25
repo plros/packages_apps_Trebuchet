@@ -28,8 +28,8 @@
     <string name="icon_pack_no_market">There\'s no available app store</string>
 
     <!-- Force monochrome icons -->
-    <string name="pref_force_monochrome_themed_icons_title">Force themed icons</string>
-    <string name="pref_force_monochrome_themed_icons_summary">Generate themed icon for apps that do not have one (requires re-toggling themed icons)</string>
+    <string name="pref_force_monochrome_themed_icons_title">Create themed icons</string>
+    <string name="pref_force_monochrome_themed_icons_summary">For apps that don\'t support them</string>
 
     <!-- Wallpaper scrolling -->
     <string name="allow_wallpaper_scrolling">Wallpaper scrolling</string>
@@ -41,5 +41,5 @@
 
     <!-- Hotseat QSB -->
     <string name="hotseat_qsb_pref_title">Show search bar widget</string>
-    <string name="hotseat_qsb_pref_summary">In the bottom home screen</string>
+    <string name="hotseat_qsb_pref_summary">On the bottom home screen</string>
 </resources>
