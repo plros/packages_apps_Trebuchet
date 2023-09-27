@@ -391,7 +391,7 @@ public class SettingsActivity extends FragmentActivity
 
         private void updateIsQsbAvailable() {
             if (mHotseatQsbPref != null) {
-                mHotseatQsbPref.setEnabled(Utilities.isQsbAvailable(getContext()));
+                mHotseatQsbPref.setVisible(Utilities.isQsbAvailable(getContext()));
             }
         }
 
